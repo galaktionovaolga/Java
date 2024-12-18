@@ -28,17 +28,18 @@ public class MyArrayTasksWithStringsAndIntsA {
 
     // 3. Проверить, содержит ли массив строк заданное слово.
     public static void task3() {
-        String[] array = {"apple", "banana", "cherry"};
+        String[] array = {"apple", "cherry"};
         String target = "banana";
         for (int i = 0; i < array.length; i++) {
             if (array[i].equals(target)) {
 
                 System.out.println(target);
                 break;
+            } else {
+                System.out.println("The array does not contain the word: " + target);
+
             }
-
         }
-
     }
 
     // 4. Подсчитать количество строк, содержащих заданный символ.
@@ -48,12 +49,15 @@ public class MyArrayTasksWithStringsAndIntsA {
         int count = 0;
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length(); j++) {
-                count++;
-                System.out.println(count);
-                break;
-            }
+                if (array[i].charAt(j) == target) {
+                    count++;
+                    break;
 
+                }
+
+            }
         }
+        System.out.println(count);
     }
 
     // 5. Найти строку с максимальным количеством символов 'e'.
@@ -67,14 +71,14 @@ public class MyArrayTasksWithStringsAndIntsA {
             int count = 0;
             for (int j = 0; j < array[i].length(); j++) {
 
-                if(array[i].charAt(j) == target){
+                if (array[i].charAt(j) == target) {
                     count++;
                 }
             }
-           if(maxCount < count){
-               maxCount = count;
-               maxString = array[i];
-           }
+            if (maxCount < count) {
+                maxCount = count;
+                maxString = array[i];
+            }
         }
         System.out.println(maxString);
     }
@@ -106,7 +110,7 @@ public class MyArrayTasksWithStringsAndIntsA {
         int[] array = {3, 1, 4, 1, 5};
         int min = array[0];
         for (int i = 0; i < array.length; i++) {
-            if(array[i] < min){
+            if (array[i] < min) {
                 min = array[i];
             }
 
@@ -119,7 +123,7 @@ public class MyArrayTasksWithStringsAndIntsA {
         String[] array = {"cat", "elephant", "dogs"};
         String minLength = array[0];
         for (int i = 0; i < array.length; i++) {
-            if(array[i].length() < minLength.length()) {
+            if (array[i].length() < minLength.length()) {
                 minLength = array[i];
             }
         }
@@ -131,7 +135,7 @@ public class MyArrayTasksWithStringsAndIntsA {
         int[] array = {1, 2, 3, 4, 6};
         int count = 0;
         for (int i = 0; i < array.length; i++) {
-            if(array[i] % 2 == 0){
+            if (array[i] % 2 == 0) {
                 count++;
             }
 
@@ -144,11 +148,26 @@ public class MyArrayTasksWithStringsAndIntsA {
         String[] array = {"apple", "banana", "apple", "cherry", "banana", "banana"};
         String mostFrequent = "";
         int maxCount = 0;
+        for (int i = 0; i < array.length; i++) {
+            int currentCount = 1;
+            for (int j = 0; j < array.length; j++) {
+                if (array[i].equals(array[j]) && j != i) {
+                    currentCount++;
+                }
+            }
 
+            if (currentCount > maxCount) {
+                maxCount = currentCount;
+                mostFrequent = array[i];
+            }
+        }
+        System.out.println("maxCount = " + maxCount);
+        System.out.println("mostFrequent = " + mostFrequent);
     }
 
+
     public static void main(String[] args) {
-        task9();
+        task10();
     }
 
 }

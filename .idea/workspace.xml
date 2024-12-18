@@ -5,17 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1870af13-2e17-4d12-8e38-3173f6d907d8" name="Changes" comment="HW Java">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_10_12_2024/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_10_12_2024/Obj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_10_12_2024/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_10_12_2024/myMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_10_12_2024/taski.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_12_2024/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_12_2024/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_12_2024/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_12_2024/Example1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_12_2024/Exmaple2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_12_2024/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_12_2024/MethodExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_12_2024/MyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_12_2024/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task/Generate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/my_03_12_2024/MyArrayTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_03_12_2024/MyArrayTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/my_03_12_2024/MyArrayTasksExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_03_12_2024/MyArrayTasksExtended.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/my_05_12_2024/MyArrayTasksWithStringsAndInts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_05_12_2024/MyArrayTasksWithStringsAndInts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/my_05_12_2024/MyArrayTasksWithStringsAndIntsA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_05_12_2024/MyArrayTasksWithStringsAndIntsA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/my_05_12_2024/MyArrayTasksWithStringsAndIntsB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_05_12_2024/MyArrayTasksWithStringsAndIntsB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,18 +38,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "galaktionovaolga"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;galaktionovaolga&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/galaktionovaolga/Java-home-work.git",
-    "accountId": "66fb83b6-a599-4689-a578-72b80748a793"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/galaktionovaolga/Java.git&quot;,
+    &quot;accountId&quot;: &quot;66fb83b6-a599-4689-a578-72b80748a793&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -56,6 +62,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CustomObject.executor": "Run",
+    "Application.Figure.executor": "Run",
+    "Application.Generate.executor": "Run",
+    "Application.Generator.executor": "Run",
     "Application.MyArrayTasks.executor": "Run",
     "Application.MyArrayTasksExtended (1).executor": "Run",
     "Application.MyArrayTasksExtended.executor": "Run",
@@ -66,22 +75,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/DELL/IdeaProjects/JavaHoneWorkMichail",
+    "last_opened_file_path": "C:/Users/DELL/IdeaProjects/JavaHoneWorkMichail/src",
     "onboarding.tips.debug.path": "C:/Users/DELL/IdeaProjects/JavaHoneWorkMichail/src/Main.java"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="_12_12_2024" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\IdeaProjects\JavaHoneWorkMichail\src" />
       <recent name="C:\Users\DELL\IdeaProjects\JavaHoneWorkMichail" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyArrayTasksWithStringsAndInts">
-    <configuration name="CustomObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_10_12_2024.CustomObject" />
+  <component name="RunManager" selected="Application.Generate">
+    <configuration name="Figure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task.Figure" />
       <module name="_081024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_10_12_2024.*" />
+          <option name="PATTERN" value="task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +102,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="my_03_12_2024.MyArrayTasks" />
+    <configuration name="Generate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task.Generate" />
       <module name="_081024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="my_03_12_2024.*" />
+          <option name="PATTERN" value="task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task.Generator" />
+      <module name="_081024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,26 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayTasksWithStringsAndIntsB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="my_05_12_2024.MyArrayTasksWithStringsAndIntsB" />
-      <module name="_081024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="my_05_12_2024.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Generate" />
+        <item itemvalue="Application.Generator" />
+        <item itemvalue="Application.Figure" />
         <item itemvalue="Application.MyArrayTasksWithStringsAndInts" />
-        <item itemvalue="Application.MyArrayTasksWithStringsAndIntsB" />
         <item itemvalue="Application.MyArrayTasksWithStringsAndIntsA" />
-        <item itemvalue="Application.CustomObject" />
-        <item itemvalue="Application.MyArrayTasks" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733920997124</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="HW Java">
+      <option name="closed" value="true" />
+      <created>1733921071738</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733921071738</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

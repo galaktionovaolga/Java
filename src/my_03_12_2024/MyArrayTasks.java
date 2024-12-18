@@ -1,5 +1,7 @@
 package my_03_12_2024;
 
+import java.util.Arrays;
+
 public class MyArrayTasks {
 
     // 1. Найти сумму элементов массива.
@@ -68,7 +70,7 @@ public class MyArrayTasks {
 
     // 6. Посчитать количество положительных элементов.
     public static void task6() {
-        int[] array = {4, -2, 0, 7};
+        int[] array = {4, -2, 0, 7, 7};
 
         int count = 0;
         for (int i = 0; i < array.length; i++) {
@@ -133,7 +135,7 @@ public class MyArrayTasks {
     // 11. Найти среднее арифметическое элементов массива.
     public static void task11() {
         int[] array = {1, 2, 3, 4};
-        int sum = 0;
+        double sum = 0;
         for (int i = 0; i < array.length; i++) {
             sum = sum + array[i];
         }
@@ -184,11 +186,19 @@ public class MyArrayTasks {
     // 15. Переставить элементы массива в обратном порядке.
     public static void task15() {
         int[] array = {1, 2, 3, 4};
+        int reset = 0;
+        int temp;
+        for (int i = 0; i < array.length / 2; i++) {
+            temp = array[i];
+            array[i] = array[array.length -1 -i];
+            array[array.length -1 -i] = temp;
+        }
+        System.out.println(Arrays.toString(array));
     }
 
 
     public static void main(String[] args) {
-        task14();
+        task15();
     }
 
 

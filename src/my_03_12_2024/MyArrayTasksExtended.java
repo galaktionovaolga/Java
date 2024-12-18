@@ -178,7 +178,7 @@ public class MyArrayTasksExtended {
 
     // !!28. Найти длину самой длинной последовательности одинаковых элементов.
     public static void task28 () {
-        int[] array = {1, 1, 2, 2, 2, 3, 3};
+        int[] array = {1, 1, 2, 2, 2, 2, 3, 3};
         int maxLength = 1;
         int currentLength = 1;
 
@@ -195,11 +195,28 @@ public class MyArrayTasksExtended {
             System.out.println(maxLength);
         }
 
-
-    public static void main(String[] args) {
-        task28();
+    // 29. Найти сумму положительных элементов, расположенных после первого отрицательного.
+    public static void task29() {
+        int[] array = {1, -2, 3, 4, -5};
+        int indexMin = 0;
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[indexMin] > array[i] && array[i] < 0) {
+                indexMin = i;
+                break;
+            }
+        }
+        for (int i = indexMin + 1; i < array.length; i++) {
+            if (array[i] >= 0) {
+                sum = sum + array[i];
+            }
+        }
+        System.out.println(sum);
     }
 
+    public static void main(String[] args) {
+        task29();
+    }
 }
 
 

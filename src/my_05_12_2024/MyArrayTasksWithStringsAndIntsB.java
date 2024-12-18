@@ -7,17 +7,32 @@ public class MyArrayTasksWithStringsAndIntsB {
     // 11. Отсортировать массив строк по длине.
     public static void task11() {
         String[] array = {"elephant", "cat", "dog"};
+        for (int i = 0; i < array.length; i++) {
+            for (int j = i + 1; j < array.length; j++) {
+                if (array[i].length() > array[j].length()) {
+                    String temp = array[i];
+                    array[i] = array[j];
+                    array[j] = temp;
+                }
+            }
+        }
+        System.out.println(Arrays.toString(array));
     }
-
     // 12. Найти и вывести все строки одинаковой длины.
     public static void task12() {
         String[] array = {"apple", "banana", "cherry", "dog", "cat"};
+        for (int i = 0; i < array.length; i++) {
+            for (int j = i + 1; j < array.length; j++) {
+                if (array[i].length() == array[j].length()) {
+                    System.out.println("Строки одинаковой длины: " + array[i] + " и " + array[j]);
+                }
+            }
+        }
     }
-
     // !!13. Сравнить содержимое двух массивов целых чисел.
     public static void task13() {
         int[] array1 = {1, 2, 3};
-        int[] array2 = {1, 2, 3, 4};
+        int[] array2 = {1, 2, 3, };
         //boolean areEqual = Arrays.equals(array1, array2);
         //System.out.println("Массивы равны: " + areEqual);
         boolean arrayEquals = true;
@@ -48,7 +63,7 @@ public class MyArrayTasksWithStringsAndIntsB {
 
     // !15. Найти уникальные значения в массиве строк.
     public static void task15() {
-        String[] array = {"apple", "banana", "apple", "ball", "cherry", "banana"};
+        String[] array = {"apple", "banana", "apple", "lemon", "cherry", "banana"};
         boolean isUnique; //добавлена переменная, которая по умолчанию явл true для каждого элемента
         for (int i = 0; i < array.length; i++) {
             isUnique = true; //Предполагаем, что элемент уникален.
@@ -65,42 +80,59 @@ public class MyArrayTasksWithStringsAndIntsB {
         }
     }
 
-    // !16. Удалить дубликаты из массива строк.
+    // 16. Удалить дубликаты из массива строк.
     public static void task16() {
         String[] array = {"apple", "banana", "apple", "cherry", "banana"};
 
-        boolean isDuplicate;
-
+        boolean isDublicate = false;
+        int countUnique = 0;
         for (int i = 0; i < array.length; i++) {
-            isDuplicate = false; // Сброс флага дубликата для каждого элемента
-            for (int j = 0; j < i; j++) { // Проверяем только предыдущие элементы
-                if (array[i].equals(array[j])) {
-                    isDuplicate = true; // Если найден дубликат
-                    break; // Выходим из внутреннего цикла
+            for (int j = i - 1; j >= 0; j--) {
+                if (array[i].equals(array[j])){
+                    isDublicate = true;
+                    break;
                 }
             }
-            if (!isDuplicate) { // Если элемент уникален
-                System.out.println(array[i]); // Выводим уникальный элемент
+            if (!isDublicate) {
+                countUnique++;
+            }
+            isDublicate = false;
+        }
+        String[] arrayWithoutDublicates = new String[countUnique];
+        int k = 0;
+        for (int i = 0; i < array.length; i++) {
+            isDublicate = false;
+            for (int j = i - 1; j >= 0; j--) {
+                if (array[i].equals(array[j])){
+                    isDublicate = true;
+                    break;
+                }
+            }
+            if (!isDublicate) {
+                arrayWithoutDublicates[k] = array[i];
+                k++;
             }
         }
+        System.out.println("arrayWithoutDublicates = " + Arrays.toString(arrayWithoutDublicates));
     }
 
-    // 17 - не выводит. Объединить два массива строк в один.
+    // 17 - не выводит(решение Нат). Объединить два массива строк в один.
     public static void task17() {
         String[] array1 = {"apple", "banana"};
         String[] array2 = {"cherry", "date"};
-        String[] combinedArray = new String[array1.length + array2.length];
-
+        String[] arrayCombined = new String[array1.length + array2.length];
+        int j = 0;
         for (int i = 0; i < array1.length; i++) {
-            combinedArray[i] = array1[i];
+            arrayCombined[j] = array1[i];
+            j++;
         }
-        for (int j = 0; j < array2.length; j++) {
-            combinedArray[array1.length + j] = array2[j];
 
-            for (String fruit : combinedArray) {
-                System.out.println(fruit);
-            }
+        for (int i = 0; i < array2.length; i++) {
+            arrayCombined[j] = array2[i];
+            j++;
         }
+
+        System.out.println(Arrays.toString(arrayCombined));
     }
 
     // 18!-. Проверить, упорядочен ли массив строк по алфавиту.
@@ -120,12 +152,11 @@ public class MyArrayTasksWithStringsAndIntsB {
 
     // !!19. Найти строки, начинающиеся с заданной буквы.
     public static void task19() {
-        String[] array = {"apple", "banana", "apricot", "arbuz", "cherry"};
+        String[] array = {"apple", "banana", "apricot", "cherry"};
         char target = 'a';
         for (int i = 0; i < array.length; i++) {
             if (array[i].charAt(0) == target) {
                 System.out.println(array[i]);
-
             }
         }
     }
