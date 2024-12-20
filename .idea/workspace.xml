@@ -4,24 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1870af13-2e17-4d12-8e38-3173f6d907d8" name="Changes" comment="HW Java">
-      <change afterPath="$PROJECT_DIR$/src/_12_12_2024/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_12_12_2024/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_12_12_2024/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_12_12_2024/Example1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_12_12_2024/Exmaple2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_12_12_2024/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_12_12_2024/MethodExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_12_12_2024/MyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_12_12_2024/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task/Figure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task/Generate.java" afterDir="false" />
+    <list default="true" id="1870af13-2e17-4d12-8e38-3173f6d907d8" name="Changes" comment="HW Java update">
+      <change afterPath="$PROJECT_DIR$/src/_19_12_2024/E1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_19_12_2024/E2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_19_12_2024/E3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_19_12_2024/E4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_19_12_2024/E5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_19_12_2024/E6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_19_12_2024/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_19_12_2024/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_19_12_2024/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_19_12_2024/T10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_19_12_2024/T11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_19_12_2024/T12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_19_12_2024/T13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_19_12_2024/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_19_12_2024/T3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_19_12_2024/T4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_19_12_2024/T5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_19_12_2024/T6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_19_12_2024/T7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_19_12_2024/T8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_19_12_2024/T9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my_03_12_2024/MyArrayTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_03_12_2024/MyArrayTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my_03_12_2024/MyArrayTasksExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_03_12_2024/MyArrayTasksExtended.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my_05_12_2024/MyArrayTasksWithStringsAndInts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_05_12_2024/MyArrayTasksWithStringsAndInts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my_05_12_2024/MyArrayTasksWithStringsAndIntsA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_05_12_2024/MyArrayTasksWithStringsAndIntsA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my_05_12_2024/MyArrayTasksWithStringsAndIntsB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_05_12_2024/MyArrayTasksWithStringsAndIntsB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +77,8 @@
     "Application.MyArrayTasksWithStringsAndIntsA.executor": "Run",
     "Application.MyArrayTasksWithStringsAndIntsB (1).executor": "Run",
     "Application.MyArrayTasksWithStringsAndIntsB.executor": "Run",
+    "Application.T1.executor": "Run",
+    "Application.T2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -88,7 +95,7 @@
       <recent name="C:\Users\DELL\IdeaProjects\JavaHoneWorkMichail" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Generate">
+  <component name="RunManager" selected="Application.T2">
     <configuration name="Figure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task.Figure" />
       <module name="_081024" />
@@ -128,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayTasksWithStringsAndInts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="my_05_12_2024.MyArrayTasksWithStringsAndInts" />
+    <configuration name="T1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_19_12_2024.T1" />
       <module name="_081024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="my_05_12_2024.*" />
+          <option name="PATTERN" value="_19_12_2024.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayTasksWithStringsAndIntsA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="my_05_12_2024.MyArrayTasksWithStringsAndIntsA" />
+    <configuration name="T2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_19_12_2024.T2" />
       <module name="_081024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="my_05_12_2024.*" />
+          <option name="PATTERN" value="_19_12_2024.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T2" />
+        <item itemvalue="Application.T1" />
         <item itemvalue="Application.Generate" />
         <item itemvalue="Application.Generator" />
         <item itemvalue="Application.Figure" />
-        <item itemvalue="Application.MyArrayTasksWithStringsAndInts" />
-        <item itemvalue="Application.MyArrayTasksWithStringsAndIntsA" />
       </list>
     </recent_temporary>
   </component>
@@ -197,12 +204,21 @@
       <option name="project" value="LOCAL" />
       <updated>1733921071738</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HW Java update">
+      <option name="closed" value="true" />
+      <created>1734523291825</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734523291825</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW Java" />
+    <MESSAGE value="HW Java update" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW Java update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
